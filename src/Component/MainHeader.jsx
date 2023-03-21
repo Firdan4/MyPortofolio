@@ -1,9 +1,7 @@
 import React from "react";
 import "../index.css";
 import Button1, { Button2 } from "./Button";
-import Bguser from "../Assets/banner-img-bg.png";
 import ImgUser from "../Assets/banner-img-about.png";
-import BannerLine from "../Assets/banner-line.png";
 
 const MainHeader = () => {
   return (

@@ -6,11 +6,24 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [nav, setNav] = useState(false);
   const hendleClick = () => setNav(!nav);
+  const [changeNav, setChangeNav] = useState(false);
+  const changeNavBg = () => {
+    window.scrollY >= 50 ? setChangeNav(true) : setChangeNav(false);
+  };
+  window.addEventListener("scroll", changeNavBg);
   return (
     <div className="absolute z-50">
-      <div className="fixed w-full justify-between items-center flex p-2 px-[13%] bg-transparent">
+      <div
+        className={
+          !changeNav
+            ? "fixed w-full justify-between items-center flex p-2 px-[13%] bg-transparent"
+            : "fixed w-full justify-between items-center flex p-2 px-[13%] bg-white shadow duration-200"
+        }
+      >
         <div>
-          <h1 className="font-signature text-5xl font-black">Firdan</h1>
+          <Link to="/" className="font-signature text-5xl font-black">
+            Firdan
+          </Link>
         </div>
         <ul className="hidden md:flex gap-5">
           <Link to="/">
@@ -25,7 +38,7 @@ const Navbar = () => {
           </Link>
           <Link to="/">
             <li className="font-bold text-[15px] hover:text-orange-500">
-              Service
+              Project
             </li>
           </Link>
         </ul>

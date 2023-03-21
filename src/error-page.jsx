@@ -1,4 +1,5 @@
-import { useRouteError } from "react-router-dom";
+import { Link, useRouteError } from "react-router-dom";
+import Button1 from "./Component/Button";
 
 export default function ErrorPage() {
   const error = useRouteError();
@@ -14,6 +15,11 @@ export default function ErrorPage() {
       </p>
       <h1>Halaman Tidak Ditemukan!</h1>
       <p>Sorry, an unexpected error has occurred.</p>
+      <div className="text-sm">
+        <Link to="/">
+          <Button1 contactProps="Kembali" />
+        </Link>
+      </div>
     </div>
   );
 }

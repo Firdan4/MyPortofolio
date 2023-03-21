@@ -15,7 +15,7 @@ const AboutHeader = () => {
           <h1 className="text-3xl font-extrabold">
             About <span className="text-orange-500">Me</span>
           </h1>
-          <p className="w-[70%]">
+          <p className="md:w-[70%]">
             Lulusan S1 dengan spesialisasi Pendidikan Teknik Informatika dan
             Komputer. Memiliki pengalaman satu tahun dalam mengembangkan dan
             membangung Website SMK Negeri 4 Sijunjung, yang responsive. Saat ini
