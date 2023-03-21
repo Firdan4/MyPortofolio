@@ -43,7 +43,9 @@ const Navbar = () => {
           </Link>
         </ul>
         <div>
-          <Button1 contactProps="Contact" />
+          <Link to="/contact">
+            <Button1 contactProps="Contact" />
+          </Link>
         </div>
         <button onClick={hendleClick} className="md:hidden z-10 ">
           {!nav ? (
@@ -72,11 +74,13 @@ const Navbar = () => {
             </Link>
             <Link to="/">
               <li className="font-bold text-[20px] hover:text-orange-500 hover:underline">
-                Service
+                Project
               </li>
             </Link>
           </ul>
-          <ButtonForMobile contactProps="Contact" />
+          <Link to="/contact">
+            <ButtonForMobile contactProps="Contact" />
+          </Link>
         </div>
       </div>
     </div>

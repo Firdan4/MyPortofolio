@@ -22,6 +22,18 @@ export const Button2 = (props) => {
     </div>
   );
 };
+export const ButtonSubmit = (props) => {
+  return (
+    <div>
+      <button
+        type="submit"
+        className="addChatFa flex hover:gap-2 justify-center items-center w-[120px] h-[40px] border border-orange-500 text-gray-900 rounded-md hover:border-none hover:bg-slate-800 duration-200 hover:text-white font-semibold"
+      >
+        {props.submitProps}
+      </button>
+    </div>
+  );
+};
 
 export const ButtonForMobile = (props) => {
   return (

@@ -1,9 +1,12 @@
 import React from "react";
+import ContactHeader from "../Component/ContactHeader";
+import Navbar from "../Component/Navbar";
 
 const Contact = () => {
   return (
     <div>
-      <h1>Hello ini contact</h1>
+      <Navbar />
+      <ContactHeader />
     </div>
   );
 };
