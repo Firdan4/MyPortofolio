@@ -8,9 +8,9 @@ const Navbar = () => {
   const hendleClick = () => setNav(!nav);
   return (
     <div className="absolute z-50">
-      <div className="fixed w-full justify-between items-center flex p-2 px-5 bg-transparent">
+      <div className="fixed w-full justify-between items-center flex p-2 px-[13%] bg-transparent">
         <div>
-          <h1 className="font-signature text-5xl">Firdan</h1>
+          <h1 className="font-signature text-5xl font-black">Firdan</h1>
         </div>
         <ul className="hidden md:flex gap-5">
           <Link to="/">
@@ -18,7 +18,7 @@ const Navbar = () => {
               Home
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/about">
             <li className="font-bold text-[15px] hover:text-orange-500">
               About
             </li>
@@ -43,22 +43,22 @@ const Navbar = () => {
           className={
             !nav
               ? "hidden"
-              : "absolute flex flex-col top-20 left-10 gap-20 shadow-xl w-[85%] rounded-lg p-16 justify-center items-center"
+              : "absolute flex flex-col top-20 left-10 gap-20 shadow-xl w-[85%] rounded-lg p-16 justify-center items-center bg-white"
           }
         >
           <ul className="flex flex-col gap-5">
             <Link to="/">
-              <li className="font-bold text-[20px] hover:text-orange-500">
+              <li className="font-bold text-[20px] hover:text-orange-500 hover:underline">
                 Home
               </li>
             </Link>
-            <Link to="/">
-              <li className="font-bold text-[20px] hover:text-orange-500">
+            <Link to="/about">
+              <li className="font-bold text-[20px] hover:text-orange-500 hover:underline">
                 About
               </li>
             </Link>
             <Link to="/">
-              <li className="font-bold text-[20px] hover:text-orange-500">
+              <li className="font-bold text-[20px] hover:text-orange-500 hover:underline">
                 Service
               </li>
             </Link>

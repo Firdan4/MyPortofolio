@@ -1,9 +1,9 @@
-import Navbar from "./Component/Navbar";
+import Home from "./Page/Home";
 
 function App() {
   return (
     <>
-      <Navbar />
+      <Home />
     </>
   );
 }
