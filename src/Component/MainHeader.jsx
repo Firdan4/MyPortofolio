@@ -2,6 +2,7 @@ import React from "react";
 import "../index.css";
 import Button1, { Button2 } from "./Button";
 import ImgUser from "../Assets/banner-img-about.png";
+import { Link } from "react-router-dom";
 
 const MainHeader = () => {
   return (
@@ -25,8 +26,12 @@ const MainHeader = () => {
               create something more extraordinary
             </p>
             <div className="md:flex md:gap-8">
-              <Button1 contactProps="My Project" />
-              <Button2 contactProps="Talk Me" />
+              <Link to="/portofolio">
+                <Button1 contactProps="My Project" />
+              </Link>
+              <Link to="/contact">
+                <Button2 contactProps="Talk Me" />
+              </Link>
             </div>
           </div>
           <div className="md:block md:w-[45%]">

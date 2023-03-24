@@ -36,9 +36,9 @@ const Navbar = () => {
               About
             </li>
           </Link>
-          <Link to="/">
+          <Link to="/portofolio">
             <li className="font-bold text-[15px] hover:text-orange-500">
-              Project
+              Portofolio
             </li>
           </Link>
         </ul>
@@ -72,9 +72,9 @@ const Navbar = () => {
                 About
               </li>
             </Link>
-            <Link to="/">
+            <Link to="/portofolio">
               <li className="font-bold text-[20px] hover:text-orange-500 hover:underline">
-                Project
+                Portofolio
               </li>
             </Link>
           </ul>
