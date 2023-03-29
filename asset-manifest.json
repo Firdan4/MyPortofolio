@@ -1,0 +1,25 @@
+{
+  "files": {
+    "main.css": "/Portofolio/static/css/main.78af572b.css",
+    "main.js": "/Portofolio/static/js/main.8ecff58b.js",
+    "static/media/aplikasibuku.png": "/Portofolio/static/media/aplikasibuku.b62b5b36a309ac79d5d9.png",
+    "static/media/SMKN4SIJUNJUNG.png": "/Portofolio/static/media/SMKN4SIJUNJUNG.c2f4fcfd53e459ad7848.png",
+    "static/media/portofoliowebsite.png": "/Portofolio/static/media/portofoliowebsite.eaed55e9ddf40c3dbfcb.png",
+    "static/media/cv.png": "/Portofolio/static/media/cv.95e37bc33e3183c2c9ef.png",
+    "static/media/clone.png": "/Portofolio/static/media/clone.83c86ae1ac9ecb79378d.png",
+    "static/media/banner-img-about.png": "/Portofolio/static/media/banner-img-about.2f916a70c4512488664e.png",
+    "static/media/react.png": "/Portofolio/static/media/react.0cf951a69d8e58f83f9d.png",
+    "static/media/html.png": "/Portofolio/static/media/html.2ba4fabc69a89a8f71e6.png",
+    "static/media/tailwind.png": "/Portofolio/static/media/tailwind.e47ac876b8d4d0bba47a.png",
+    "static/media/css.png": "/Portofolio/static/media/css.69a82c2d9e45c933a9cb.png",
+    "static/media/github.png": "/Portofolio/static/media/github.84e17aecb3b4bd94b8f7.png",
+    "static/media/javascript.png": "/Portofolio/static/media/javascript.1ccd6ef9bb1f9c84ef00.png",
+    "index.html": "/Portofolio/index.html",
+    "main.78af572b.css.map": "/Portofolio/static/css/main.78af572b.css.map",
+    "main.8ecff58b.js.map": "/Portofolio/static/js/main.8ecff58b.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.78af572b.css",
+    "static/js/main.8ecff58b.js"
+  ]
+}
